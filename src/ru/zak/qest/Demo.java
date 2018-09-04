@@ -2,6 +2,11 @@ package ru.zak.qest;
 
 import java.util.Scanner;
 
+/**
+ * Разминка. Умножение без оператора умножения.
+ * @author Заставская Анастасия
+ */
+
 public class Demo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -20,7 +25,12 @@ public class Demo {
         System.out.println("Время выполнения: " + timeConsumedMillis + " ms.");
     }
 
-
+    /**
+     *  Метод для проверки введённых чисел и вычисления результата.
+     * @param one - первый множитель
+     * @param two - второй множитель
+     * @return - возвращает результат умножения
+     */
     private static int Result(int one, int two) {
         int result = 0;
 
