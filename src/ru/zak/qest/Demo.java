@@ -31,7 +31,7 @@ public class Demo {
      * @param two - второй множитель
      * @return - возвращает результат умножения
      */
-    private static int Result(int one, int two) {
+    private static int result(int one, int two) {
         int result = 0;
 
             if (two < 0) {
