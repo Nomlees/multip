@@ -18,7 +18,7 @@ public class Demo {
         if (one == 0 || two == 0) {
             System.out.println("Ответ = 0");
         } else {
-            System.out.println("Результат вычисления: " + Result(one, two));
+            System.out.println("Результат вычисления: " + result(one, two));
         }
         long finish = System.currentTimeMillis();
         long timeConsumedMillis = finish - start;
