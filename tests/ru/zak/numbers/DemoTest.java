@@ -10,5 +10,6 @@ public class DemoTest {
     public void main() {
         Demo main = new Demo();
         assertEquals(6,main.result(2,3));
+
     }
 }
